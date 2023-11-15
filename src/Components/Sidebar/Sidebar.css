@@ -1,0 +1,71 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    border-right: 1px solid lightgray;
+}
+
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    /* height: 39px; */
+    padding: 5px;
+}
+
+.searchcontainer{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.searchcontainer > .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
+
+.searchcontainer > input{
+    border: none;
+    margin-left: 10px;   
+}
+
+.sidebar_headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.logout{
+    background-color: lightsalmon;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.sidebar_sidechat{
+    height: fit-content;
+    overflow: scroll;
+}

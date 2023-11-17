@@ -77,7 +77,7 @@ export default function ChatBox({ user }) {
             <div className="chat_footer">
                 <InsertEmoticon />
                 <form action="">
-                    <input type="text" value={input} onChange={e => setInput(e.target.value)} />
+                    <input placeholder='Type a Message' type="text" value={input} onChange={e => setInput(e.target.value)} />
                     <button type="submit" onClick={sendMessage}>Send a Message</button>
                 </form>
                 <MicIcon />

@@ -6,9 +6,47 @@
 }
 
 .app_body{
+  margin-top:10px;
   display: flex;
   background-color: #ededed;
-  height: 95vh;
+  /* height: 95vh; */
   width: 95vw;
   box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+  margin-bottom: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .app_body {
+    height:60vh;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (min-width: 600px) {
+  .app_body {
+    height:60vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .app_body {
+    height:60vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .app_body {
+    height:95vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media screen and (min-width: 1200px) {
+  .app_body {
+    height:95vh;
+  }
 }

@@ -23,7 +23,7 @@ export default function Sidechat({ id, name, photo, addNewChat }) {
         const roomName = prompt("Please enter the room name");
         const roomPhoto = prompt("Please enter the photo URL");
 
-        if (roomName && roomPhoto) {
+        if (roomName || roomPhoto) {
             db.collection("Rooms").add({
                 Name: roomName,
                 Photo: roomPhoto,
